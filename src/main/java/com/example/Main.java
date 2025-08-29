@@ -11,17 +11,7 @@ public class Main {
         System.out.println("3. encriptar una frase");
         System.out.println("4. desencriptar una frase");
         System.out.println("5. Salir");
-        
-    }
 
-    public static void palindromo(String frase){
-        String fraseLimpia = frase.replaceAll("[^a-zA-Z]", "").toLowerCase();
-        String fraseInvertida = new StringBuilder(fraseLimpia).reverse().toString();
-        if (fraseLimpia.equals(fraseInvertida)) {
-            System.out.println("La frase es un palíndromo.");
-        } else {
-            System.out.println("La frase no es un palíndromo.");
-        }
     }
     
 }
